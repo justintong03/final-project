@@ -1,0 +1,151 @@
+#title {
+    background-color:skyblue;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 35%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About */
+
+#about {
+    padding: 7% 15%;
+    background-color:white;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: darkorange;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 20px;
+}
+
+.icon {
+    color: #ef8712;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #8fdbf2;
+}
+
+/* Work1 */
+
+#works1 {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: midnightblue;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 1.5;
+    font-weight: bold;
+    color: darkorange;
+}
+
+/* Testimonial Image */
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#works2 {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#works3 {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: midnightblue;
+}
+
+.pricing-header {
+    color: #000;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+#resume {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:skyblue;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
